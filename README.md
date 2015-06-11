@@ -1,2 +1,64 @@
-# RME
-This is a map editor for OpenTibia, which is an open source implementation of the MMORPG Tibia (which can be found at tibia.net), the official website is remeresmapeditor.com. You can find the project for hosting your own server at the otserv project. The main fansite for help, discussion and servers is otland.net.
+# Remere-s-Map-Editor-10.78
+This Version works with the Tibia.spr and original Tibia.dat version 10.78 and contains original items.otb
+
+# Special thanks:
+
+[hjnilsson --- Sources RME](https://github.com/hjnilsson/rme)
+
+# Other Applications
+
+* To host your MMORPG game server, you can use [The Forgotten Server](https://github.com/otland/forgottenserver)
+* To play your MMORPG game, you can use [OTClient](https://github.com/edubart/otclient)
+* To map your MMORPG game, you can use this map editor or Use any other
+
+# Note
+
+* Items.xml it not have updates, will be updated as fast as possible
+
+# Issues
+
+* Report all [Here](https://github.com/ricker75/Remere-s-Map-Editor-10.78/issues)
+
+# Changes in Otb old and new Version
+
+*Old Version itemst.otb
+![] (http://i.imgur.com/t6RSKhn.png)
+
+* New Items.otb 10.78
+![](http://i.imgur.com/Z6PvWIm.png)
+
+# Testing Otb in RME and Server 
+
+![](http://i61.tinypic.com/2emgaxk.jpg)
+
+![](http://i57.tinypic.com/ifu2yg.jpg)
+
+### Linux
+===============
+
+```bash
+
+# Installing dependencies
+sudo apt-get install git libboost-system-dev libboost-thread-dev libglu1-mesa-dev libwxgtk3.0-dev libarchive-dev 
+
+# Clone the project
+git clone git@github.com:krugerdevelopers/RME.git
+
+# Go to RME Folder
+cd rme
+
+# Preparing to build
+mkdir build && cd build
+cmake ..
+
+# Building
+make -j `nproc`
+
+# Running and enjoy
+./rme
+```
+
+
+# Visit My Thread
+
+*  [BlackTibia.org](http://www.blacktibia.org/t38982-remere-s-map-editor-10-78#239318)

@@ -1,0 +1,37 @@
+# CMake
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+Makefile
+build/
+build.*/
+CMakeLists.txt.user*
+
+# RME
+rme.cfg
+data/user
+
+# Visual Studio
+*.MAP
+*.user
+*.APS
+*.opensdf
+*.sdf
+*.suo
+*.obj
+
+vcproj/ipch/
+vcproj/Beta Release/
+vcproj/Debug/
+vcproj/Release/
+vcproj/Project/Beta Release/
+vcproj/Project/Debug/
+vcproj/Project/Release/
+vcproj/Installer/Beta Release/
+vcproj/Installer/Debug/
+vcproj/Installer/Release/
+
+
+# Xcode
+xcuserdata
+.DS_STORE
