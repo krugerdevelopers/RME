@@ -45,7 +45,7 @@ sudo apt-get install git libboost-system-dev libboost-thread-dev libglu1-mesa-de
 git clone git@github.com:krugerdevelopers/RME.git
 
 # Go to RME Folder
-cd rme
+cd RME
 
 # Preparing to build
 mkdir build && cd build
@@ -55,7 +55,7 @@ cmake ..
 make -j `nproc`
 
 # Running and enjoy
-./rme
+./RME
 ```
 
 
