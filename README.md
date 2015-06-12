@@ -34,7 +34,7 @@ This Version works with the Tibia.spr and original Tibia.dat version 10.78 and c
 ![](http://i57.tinypic.com/ifu2yg.jpg)
 
 ### Linux
-===============
+=======================
 
 ```bash
 
@@ -42,20 +42,21 @@ This Version works with the Tibia.spr and original Tibia.dat version 10.78 and c
 sudo apt-get install git libboost-system-dev libboost-thread-dev libglu1-mesa-dev libwxgtk3.0-dev libarchive-dev 
 
 # Clone the project
-git clone git@github.com:krugerdevelopers/RME.git
+git clone https://github.com/krugerdevelopers/RME.git
 
 # Go to RME Folder
 cd RME
 
 # Preparing to build
 mkdir build && cd build
+
 cmake ..
 
 # Building
 make -j `nproc`
 
 # Running and enjoy
-./RME
+./rme
 ```
 
 
