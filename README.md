@@ -36,14 +36,14 @@ This Version works with the Tibia.spr and original Tibia.dat version 10.78 and c
 ### Windows
 =======================
 
-```bash
+
 # [Visual Studio 2013](http://go.microsoft.com/fwlink/?LinkId=517284)
 
 ##Libs Wx 3.0.2
 
 #[wxwidgets 3.0.2](https://www.wxwidgets.org/downloads/)
 
-```
+======================
 
 ### Linux
 =======================
