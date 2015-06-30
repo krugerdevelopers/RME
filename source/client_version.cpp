@@ -250,10 +250,10 @@ void ClientVersion::loadVersion(pugi::xml_node versionNode)
 				client_data.datFormat = DAT_FORMAT_1057;
 			} else if (format == "10.70") {
 				client_data.datFormat = DAT_FORMAT_1070;
-			} else if (format == "10.78") {
-				client_data.datFormat = DAT_FORMAT_1078;
+			} else if (format == "10.80") {
+				client_data.datFormat = DAT_FORMAT_1080;
 			} else {
-				wxLogError(wxT("Node 'data' 'format' is invalid (7.4, 7.55, 7.8, 8.6, 9.6, 10.10, 10.50, 10.57, 10.70 and 10.78 are supported)"));
+				wxLogError(wxT("Node 'data' 'format' is invalid (7.4, 7.55, 7.8, 8.6, 9.6, 10.10, 10.50, 10.57, 10.70 and 10.80 are supported)"));
 				continue;
 			}
 
